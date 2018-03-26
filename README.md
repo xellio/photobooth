@@ -17,6 +17,7 @@ Due to security, privacy and performance concerns, you should not use this softw
 - [go](https://golang.org/)
 - [gphoto2](http://gphoto.org/)
 - imagemagick
+- convert
 
 ## Installation
 Running `make` will do the work for you.
