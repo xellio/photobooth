@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<title>{{.Title}}</title>
+		<link href="/static/styles/styles.css" rel="stylesheet">
+		<script type="text/javascript" src="/static/script/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="/static/script/script.js"></script>
+
+	</head>
+	<body>	
+		
+		<div class="gallery" align="center">
+			<div class="thumbnails">
+				{{ range $index, $image := .Images }}
+					<img src="{{$image.Thumb}}" alt="{{$image.Image}}" />
+				{{ end }}
+			</div>
+
+		</div>
+
+	</body>
+</html>

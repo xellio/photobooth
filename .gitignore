@@ -1,0 +1,6 @@
+photobooth
+/static/photos
+/static/thumbs
+/photos
+Gopkg.lock
+glide.lock

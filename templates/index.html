@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<meta http-equiv="cache-control" content="max-age=0" />
+		<meta http-equiv="cache-control" content="no-cache" />
+		
+		<title>{{.Title}}</title>
+		<link href="/static/styles/styles.css" rel="stylesheet">
+		<link href="/static/styles/TimeCircles.css" rel="stylesheet">
+		<script type="text/javascript" src="/static/script/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="/static/script/script.js"></script>
+		<script type="text/javascript" src="/static/script/TimeCircles.js"></script>
+
+	</head>
+	<body>	
+
+		<div class="countdownwrapper">
+			<div class="countdown" data-timer="5"></div>
+		</div>
+
+		<div class="gallery" align="center">
+			<div class="preview" align="center">
+				<img id="preview" src="{{.LastImage.Image}}" alt="" onclick="startCountdown()"/>
+			</div>
+
+			<div class="thumbnails">
+				{{ range $index, $image := .Images }}
+					<img onmouseover="getElementById('preview').src=this.alt" src="{{$image.Thumb}}" alt="{{$image.Image}}" />
+				{{ end }}
+			</div>
+
+		</div>
+
+	</body>
+</html>
