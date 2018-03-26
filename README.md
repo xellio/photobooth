@@ -48,4 +48,4 @@ APPLICATION_PORT = 1122
 ```
 
 ## Setup
-My setup requires a Raspberry Pi 3 running a headless raspbian stretch, a [gphoto2 supported camera](http://gphoto.org/doc/remote/) and a Google Nexus 7 for accessing and controlling the frontend from inside the booth.
+My setup requires a Raspberry Pi 3 running a headless raspbian stretch, a [gphoto2 supported camera](http://gphoto.org/doc/remote/) (for me it is a Nikon D5000) and a Google Nexus 7 for accessing and controlling the frontend from inside the booth.
