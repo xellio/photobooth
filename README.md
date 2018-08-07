@@ -1,5 +1,9 @@
 # Photobooth
 
+[![go report card](https://goreportcard.com/badge/github.com/xellio/photobooth "go report card")](https://goreportcard.com/report/github.com/xellio/photobooth)
+[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
+[![GoDoc](https://godoc.org/github.com/xellio/photobooth?status.svg)](https://godoc.org/github.com/xellio/photobooth)
+
 ## Ambition
 I wanted to build a simple, lightweight and easy to use photobooth application.
 In my case it runns on a Rasperry Pi 3 - but it should run on any system/hardware matching the requirements.
